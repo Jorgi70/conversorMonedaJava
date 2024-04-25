@@ -4,8 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="50a166a4-211b-4117-8d76-3b2c16d9365a" name="Changes" comment="Se agrega Variables a los Parametros">
-      <change afterPath="$PROJECT_DIR$/src/Principal.java" afterDir="false" />
+    <list default="true" id="50a166a4-211b-4117-8d76-3b2c16d9365a" name="Changes" comment="Se agrego la clase Principal con codigo en desarrollo">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ConvertirAPI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ConvertirAPI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Monedas.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Monedas.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Principal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Principal.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,21 +26,21 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "Jorgi70"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Jorgi70&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/Jorgi70/conversorMonedaJava.git",
-    "accountId": "90c5e000-930b-4c82-abf5-b911083d6a94"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Jorgi70/conversorMonedaJava.git&quot;,
+    &quot;accountId&quot;: &quot;90c5e000-930b-4c82-abf5-b911083d6a94&quot;
   }
-}]]></component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 3
-}]]></component>
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
   <component name="ProjectId" id="2fZpvwW47CP8Fcx4xrr6irbhCsJ" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -48,6 +51,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.Principal.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
@@ -99,7 +103,15 @@
       <option name="project" value="LOCAL" />
       <updated>1714026010602</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Se agrego la clase Principal con codigo en desarrollo">
+      <option name="closed" value="true" />
+      <created>1714030183608</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1714030183608</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -107,6 +119,7 @@
     <MESSAGE value="Se agrego Http a ConvertirAPI y se creo el Record Monedas" />
     <MESSAGE value="Se cambia nombres de Parametros" />
     <MESSAGE value="Se agrega Variables a los Parametros" />
-    <option name="LAST_COMMIT_MESSAGE" value="Se agrega Variables a los Parametros" />
+    <MESSAGE value="Se agrego la clase Principal con codigo en desarrollo" />
+    <option name="LAST_COMMIT_MESSAGE" value="Se agrego la clase Principal con codigo en desarrollo" />
   </component>
 </project>
