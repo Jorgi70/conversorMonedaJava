@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="50a166a4-211b-4117-8d76-3b2c16d9365a" name="Changes" comment="Se agrego la clase Principal con codigo en desarrollo">
+    <list default="true" id="50a166a4-211b-4117-8d76-3b2c16d9365a" name="Changes" comment="Se acomodo el String menu">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ConvertirAPI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ConvertirAPI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Monedas.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Monedas.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Principal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Principal.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -111,7 +109,39 @@
       <option name="project" value="LOCAL" />
       <updated>1714030183608</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Se arreglo variables y URI">
+      <option name="closed" value="true" />
+      <created>1714063028497</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1714063028498</updated>
+    </task>
+    <task id="LOCAL-00007" summary="En espera para ver que hacemos con variables de sobra">
+      <option name="closed" value="true" />
+      <created>1714063068931</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1714063068931</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Se completo el API y Respuesta de usuario Funcionando">
+      <option name="closed" value="true" />
+      <created>1714063131144</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1714063131144</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Se acomodo el String menu">
+      <option name="closed" value="true" />
+      <created>1714064011345</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1714064011345</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -120,6 +150,10 @@
     <MESSAGE value="Se cambia nombres de Parametros" />
     <MESSAGE value="Se agrega Variables a los Parametros" />
     <MESSAGE value="Se agrego la clase Principal con codigo en desarrollo" />
-    <option name="LAST_COMMIT_MESSAGE" value="Se agrego la clase Principal con codigo en desarrollo" />
+    <MESSAGE value="Se arreglo variables y URI" />
+    <MESSAGE value="En espera para ver que hacemos con variables de sobra" />
+    <MESSAGE value="Se completo el API y Respuesta de usuario Funcionando" />
+    <MESSAGE value="Se acomodo el String menu" />
+    <option name="LAST_COMMIT_MESSAGE" value="Se acomodo el String menu" />
   </component>
 </project>

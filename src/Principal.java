@@ -10,6 +10,7 @@ public class Principal {
 
         try{
             while (opcion != 7) {
+
                 String menu = """
                         ***********************************************************
                         Bienvanido al Convesor de Moneda de Alura
@@ -28,6 +29,7 @@ public class Principal {
                         """;
                 System.out.println(menu);
                 opcion = lectura.nextInt();
+
                 System.out.println("Ingrese el Valor a Convertir");
                 var valor = lectura.nextInt();
                 String base="", cambiar="";
@@ -56,13 +58,16 @@ public class Principal {
                         base = "COP";
                         cambiar = "USD";
                         break;
+                    case 7:
+                        System.out.println("Gracias por utilizar nuestros servicios");
+                        break;
                     default:
-                        System.out.println("Gracias por utilizar la APP, el sistema esta finalizado");
+                        System.out.println("Opcion no Valida");
                 }
                 Monedas moneda = consulta.convertir( base, cambiar);
                 double resultado = valor * moneda.conversion_rate();
 
-                System.out.println("El valor converitido de " +base+ " a "+cambiar+":" + resultado);
+                System.out.println("El valor convertido de " +base+ " a "+cambiar+":" + resultado);
             }
         }catch (Exception e){
             System.out.println("Error al convertir, todos los servidores estan ocupados");
