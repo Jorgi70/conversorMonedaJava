@@ -14,7 +14,6 @@ public class Principal {
                         ***********************************************************
                         Bienvanido al Convesor de Moneda de Alura
                                             
-                                           
                         1 - Dolar ===> Pesos Argentinos
                         2 - Pesos Argentino ===> Dolar
                         3 - Dolar ===> Real Brasilero
@@ -24,6 +23,7 @@ public class Principal {
                         7 - Salir
                                             
                         Elija una opcion VALIDA:
+                        
                         ***********************************************************
                         """;
                 System.out.println(menu);
