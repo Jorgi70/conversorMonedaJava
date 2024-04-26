@@ -8,6 +8,7 @@ public class Principal {
 
         ConvertirAPI consulta = new ConvertirAPI();
 
+
         try{
             while (opcion != 7) {
 
@@ -65,9 +66,10 @@ public class Principal {
                         System.out.println("Opcion no Valida");
                 }
                 Monedas moneda = consulta.convertir( base, cambiar);
-                double resultado = valor * moneda.conversion_rate();
+                double numeroCambio = valor * moneda.conversion_rate();
 
-                System.out.println("El valor convertido de " +base+ " a "+cambiar+":" + resultado);
+                System.out.println("El valor convertido de " +base+ " a "+cambiar+":" + numeroCambio);
+
             }
         }catch (Exception e){
             System.out.println("Error al convertir, todos los servidores estan ocupados");
