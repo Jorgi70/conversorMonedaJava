@@ -8,21 +8,17 @@ public class Historial {
         private double numeroCambio;
         private List<Monedas> historialTransacciones;
 
-        Monedas moneda = new Monedas(baseMoneda,cambioMoneda,numeroCambio);
 
     public Historial(double numeroCambio) {
-        this.baseMoneda = moneda.base_code();
-        this.cambioMoneda = moneda.target_code();
-        this.numeroCambio = moneda.conversion_rate();
+        this.baseMoneda = baseMoneda;
+        this.cambioMoneda = cambioMoneda;
+        this.numeroCambio = numeroCambio;
         this.historialTransacciones = new ArrayList<>();
     }
 
-    public boolean agregarHistorial(Monedas moneda){
-        if(moneda.conversion_rate() != 0){
-            getHistorialTransacciones().add(moneda);
-            return true;
-        }
-        return false;
+
+    public void agregarLista(Monedas monedas){
+        historialTransacciones.add(monedas);
     }
 
     public String getBaseMoneda() {
@@ -41,3 +37,6 @@ public class Historial {
         return historialTransacciones;
     }
 }
+
+
+
