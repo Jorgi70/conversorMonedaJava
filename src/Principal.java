@@ -79,7 +79,7 @@ public class Principal {
             }
 
         }catch (Exception e){
-            System.out.println("Error al convertir, todos los servidores estan ocupados");
+            System.out.println("Error al convertir, todos los servidores estan ocupados u escribio parametros diferentes a monedas");
         }
 
 

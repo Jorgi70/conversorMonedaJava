@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="50a166a4-211b-4117-8d76-3b2c16d9365a" name="Changes" comment="Se acomodo el String menu">
-      <change afterPath="$PROJECT_DIR$/src/Historial.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Monedas.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Monedas.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Principal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Principal.java" afterDir="false" />
+    <list default="true" id="50a166a4-211b-4117-8d76-3b2c16d9365a" name="Changes" comment="Se agrego el add Lista">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,6 +35,9 @@
     &quot;accountId&quot;: &quot;90c5e000-930b-4c82-abf5-b911083d6a94&quot;
   }
 }</component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 3
 }</component>
@@ -54,7 +55,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Mw4y/Downloads/LibreriaJAVA/Gson/gson-2.10.1.jar&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Mw4y/Documents/Java/Spring Java/ScreenMatch&quot;,
     &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
@@ -142,7 +143,55 @@
       <option name="project" value="LOCAL" />
       <updated>1714064011345</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Se modifico el ToString">
+      <option name="closed" value="true" />
+      <created>1714118363872</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1714118363873</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Se creo Clase para Historial de Transacciones">
+      <option name="closed" value="true" />
+      <created>1714118392164</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1714118392164</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Implementando Clase Historial de Transacciones">
+      <option name="closed" value="true" />
+      <created>1714118459790</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1714118459790</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Se creo el  new arraylist">
+      <option name="closed" value="true" />
+      <created>1716093324176</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1716093324176</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Se hizo un Comparable">
+      <option name="closed" value="true" />
+      <created>1716093342978</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1716093342978</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Se agrego el add Lista">
+      <option name="closed" value="true" />
+      <created>1716093362003</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1716093362003</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -155,6 +204,12 @@
     <MESSAGE value="En espera para ver que hacemos con variables de sobra" />
     <MESSAGE value="Se completo el API y Respuesta de usuario Funcionando" />
     <MESSAGE value="Se acomodo el String menu" />
-    <option name="LAST_COMMIT_MESSAGE" value="Se acomodo el String menu" />
+    <MESSAGE value="Se modifico el ToString" />
+    <MESSAGE value="Se creo Clase para Historial de Transacciones" />
+    <MESSAGE value="Implementando Clase Historial de Transacciones" />
+    <MESSAGE value="Se creo el  new arraylist" />
+    <MESSAGE value="Se hizo un Comparable" />
+    <MESSAGE value="Se agrego el add Lista" />
+    <option name="LAST_COMMIT_MESSAGE" value="Se agrego el add Lista" />
   </component>
 </project>
