@@ -65,9 +65,11 @@ public class Principal {
                             cambiar = "USD";
                             break;
                     }
-                    Monedas monedas = new Monedas(base, cambiar, numeroCambio);
+
                     Monedas resultado = consulta.convertir(base, cambiar);
                     numeroCambio = valor * resultado.conversion_rate();
+                    Monedas monedas = new Monedas(base, cambiar, numeroCambio);
+
 
                     historial.agregarLista(monedas);
                     System.out.println("El valor convertido de " + base + " a " + cambiar + ":" + numeroCambio);
@@ -79,7 +81,7 @@ public class Principal {
             }
 
         }catch (Exception e){
-            System.out.println("Error al convertir, todos los servidores estan ocupados u escribio parametros diferentes a monedas");
+            System.out.println("Error al convertir, todos los servidores estan ocupados /n u escribio parametros diferentes a monedas");
         }
 
 
