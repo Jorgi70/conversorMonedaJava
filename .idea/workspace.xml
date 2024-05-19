@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="50a166a4-211b-4117-8d76-3b2c16d9365a" name="Changes" comment="Se agrego el add Lista y se ordeno">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Historial.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Historial.java" afterDir="false" />
+    <list default="true" id="50a166a4-211b-4117-8d76-3b2c16d9365a" name="Changes" comment="Se modifico fix de lista">
+      <change beforePath="$PROJECT_DIR$/src/Monedas.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Monedas.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Principal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Principal.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -201,7 +200,15 @@
       <option name="project" value="LOCAL" />
       <updated>1716093607676</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Se modifico fix de lista">
+      <option name="closed" value="true" />
+      <created>1716095365835</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1716095365835</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -221,6 +228,7 @@
     <MESSAGE value="Se hizo un Comparable" />
     <MESSAGE value="Se agrego el add Lista" />
     <MESSAGE value="Se agrego el add Lista y se ordeno" />
-    <option name="LAST_COMMIT_MESSAGE" value="Se agrego el add Lista y se ordeno" />
+    <MESSAGE value="Se modifico fix de lista" />
+    <option name="LAST_COMMIT_MESSAGE" value="Se modifico fix de lista" />
   </component>
 </project>

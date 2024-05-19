@@ -89,7 +89,8 @@ public class Principal {
         System.out.println("******************************");
         System.out.println("Historial de Transacciones: ");
         for (Monedas monedas : historial.getHistorialTransacciones()){
-            System.out.println(monedas.base_code() + "-" + monedas.target_code() + "-" + monedas.conversion_rate());
+            //System.out.println(monedas.base_code() + "-" + monedas.target_code() + "-" + monedas.conversion_rate());
+            System.out.println(monedas);
         }
         System.out.println("******************************");
     }
