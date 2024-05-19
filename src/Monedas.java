@@ -4,9 +4,9 @@ public record Monedas (String base_code,
 
     @Override
     public String toString() {
-        return " Valor ='" + base_code +
-                "Conversion ='" + target_code +
-                "Precio =" + conversion_rate;
+        return " Valor =" + base_code +
+                ", Conversion a =" + target_code +
+                ", Total = " + conversion_rate;
     }
 
     @Override
