@@ -1,7 +1,13 @@
+import com.google.gson.FieldNamingPolicy;
+import com.google.gson.Gson;
+import com.google.gson.GsonBuilder;
+
+import java.io.FileWriter;
+import java.io.IOException;
 import java.util.*;
 
 public class Principal {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws IOException {
 
         int opcion = 0;
 
@@ -12,6 +18,11 @@ public class Principal {
         double numeroCambio = 0;
 
         Historial historial = new Historial(numeroCambio);
+
+        Gson gson = new GsonBuilder()
+                .setFieldNamingPolicy(FieldNamingPolicy.UPPER_CAMEL_CASE)
+                .setPrettyPrinting()
+                .create();
 
         try{
             while (opcion != 7) {
@@ -68,7 +79,7 @@ public class Principal {
 
                     Monedas resultado = consulta.convertir(base, cambiar);
                     numeroCambio = valor * resultado.conversion_rate();
-                    Monedas monedas = new Monedas(base, cambiar, numeroCambio);
+                    Monedas monedas = new Monedas(base, cambiar,valor, resultado.conversion_rate());
 
 
                     historial.agregarLista(monedas);
@@ -81,7 +92,7 @@ public class Principal {
             }
 
         }catch (Exception e){
-            System.out.println("Error al convertir, todos los servidores estan ocupados /n u escribio parametros diferentes a monedas");
+            System.out.println("Error al convertir, todos los servidores estan ocupados \nU escribio parametros diferentes a monedas \nPor Favor intente Nuevamente !!");
         }
 
 
@@ -89,9 +100,12 @@ public class Principal {
         System.out.println("******************************");
         System.out.println("Historial de Transacciones: ");
         for (Monedas monedas : historial.getHistorialTransacciones()){
-            //System.out.println(monedas.base_code() + "-" + monedas.target_code() + "-" + monedas.conversion_rate());
             System.out.println(monedas);
         }
         System.out.println("******************************");
+        //
+        FileWriter escritura = new FileWriter("Datos.json");
+        escritura.write(gson.toJson(historial));
+        escritura.close();
     }
 }

@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="50a166a4-211b-4117-8d76-3b2c16d9365a" name="Changes" comment="Se modifico fix de lista">
+    <list default="true" id="50a166a4-211b-4117-8d76-3b2c16d9365a" name="Changes" comment="Se implememto el ToString al for">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Monedas.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Monedas.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Principal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Principal.java" afterDir="false" />
     </list>
@@ -208,7 +209,23 @@
       <option name="project" value="LOCAL" />
       <updated>1716095365835</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Se agrego ToString">
+      <option name="closed" value="true" />
+      <created>1716096083599</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1716096083599</updated>
+    </task>
+    <task id="LOCAL-00019" summary="Se implememto el ToString al for">
+      <option name="closed" value="true" />
+      <created>1716096134437</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1716096134437</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -229,6 +246,8 @@
     <MESSAGE value="Se agrego el add Lista" />
     <MESSAGE value="Se agrego el add Lista y se ordeno" />
     <MESSAGE value="Se modifico fix de lista" />
-    <option name="LAST_COMMIT_MESSAGE" value="Se modifico fix de lista" />
+    <MESSAGE value="Se agrego ToString" />
+    <MESSAGE value="Se implememto el ToString al for" />
+    <option name="LAST_COMMIT_MESSAGE" value="Se implememto el ToString al for" />
   </component>
 </project>
